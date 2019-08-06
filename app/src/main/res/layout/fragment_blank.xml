@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                "
+                android:id="@+id/img1"
+                android:layout_width="91dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginEnd="12dp"
+                android:contentDescription=""
+                tools:srcCompat="@drawable/kkk"
+                />
+                <ImageView/>
+
+                <TextView
+                        android:layout_width="172dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="asdlask"
+                        android:textSize="10sp">
+                </TextView>
+                <ImageView
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="351dp"
+                    android:layout_height="147dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="129dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="23dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginStart="23dp"
+                        android:layout_marginEnd="12dp"
+                        tools:srcCompat="@drawable/dw"/>
+                <Button
+                        android:text="Delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/button17"/>
+
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="23dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginStart="23dp"
+                        android:layout_marginEnd="12dp"
+                        tools:srcCompat="@drawable/dw1"/>
+                <Button
+                        android:text="Delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/button10"/>
+                <ImageView/>
+
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="23dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginStart="23dp"
+                        android:layout_marginEnd="12dp"
+                        tools:srcCompat="@drawable/kkk"/>
+
+                <Button
+                        android:text="Delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/button18"/>
+                <ImageView/>
+
+            </TableRow>
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="124dp"
+                        android:layout_height="98dp"
+                        android:layout_marginLeft="23dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginStart="23dp"
+                        android:layout_marginEnd="12dp"
+                        tools:srcCompat="@drawable/im"/>
+                <Button
+                        android:text="Delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/button19"/>
+                <ImageView/>
+
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                <ImageView
+                        android:id="@+id/img6"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="23dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginStart="23dp"
+                        android:layout_marginEnd="12dp"
+                        tools:srcCompat="@drawable/im1"/>
+
+                <Button
+                        android:text="Delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/button20"/>
+                <ImageView/>
+
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="434dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                <Button
+                        android:text="Confirm Order"
+                        android:layout_width="151dp"
+                        android:layout_height="wrap_content" android:id="@+id/button15"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</FrameLayout>
